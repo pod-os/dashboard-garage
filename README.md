@@ -18,15 +18,19 @@ When you open this repository in OpenCode and ask it to build a PodOS dashboard,
 
 1. Install [OpenCode](https://opencode.ai)
 2. Clone this repository
-3. Open it in OpenCode:
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Open it in OpenCode:
    ```sh
    opencode
    ```
-4. Ask OpenCode to create a PodOS dashboard — the skill will guide the process
+5. Ask OpenCode to create a PodOS dashboard — the skill will guide the process
 
 ## Skill Location
 
-The skill definitions lives at:
+The skill definitions live at:
 
 ```
 .opencode/skills

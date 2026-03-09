@@ -1,0 +1,24 @@
+{
+  "name": "@pod-os/dashboard-garage",
+  "version": "0.1.0",
+  "description": "This repository contains an [OpenCode](https://opencode.ai) skill for crafting **PodOS dashboards** with AI-assisted coding.",
+  "homepage": "https://github.com/pod-os/dashboard-garage#readme",
+  "bugs": {
+    "url": "https://github.com/pod-os/dashboard-garage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pod-os/dashboard-garage.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Angelo Veltens",
+    "email": "angelo@pod-os.org",
+    "url": "https://angelo.veltens.org/profile/card#me"
+  },
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "@wc-toolkit/cem-utilities": "^1.5.4"
+  }
+}

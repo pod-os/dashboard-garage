@@ -19,11 +19,12 @@ learn the basics.
 
 Never assume / invent elements or their attributes. Consult the existing documentation or ask the user if unsure.
 
-Documentation for each element can be found on an URL following this pattern:
+Use the built-in tools to look up element information:
 
-`https://raw.githubusercontent.com/pod-os/PodOS/refs/heads/main/docs/elements/components/<component name>/readme.md`
+- `podos_listAllElements` — lists all available PodOS elements with short descriptions. Use this to discover what elements exist.
+- `podos_getElementDocs` — returns full documentation for a specific element by tag name (e.g. `pos-list`). Use this before using any element to get its exact attributes, properties, and events.
 
-Here is the list of the most important elements. Fetch their documentation as soon as you need to use them:
+Here is the list of the most important elements:
 
 | Component name  | When to use                                                                                                            |
 |-----------------|------------------------------------------------------------------------------------------------------------------------|
@@ -33,14 +34,14 @@ Here is the list of the most important elements. Fetch their documentation as so
 | pos-value       | Display a value of a certain property / predicate                                                                      |
 | pos-description | describe a thing                                                                                                       |
 | pos-picture     | Visualize a thing by showing it's picture                                                                              |
-| pos-list        | List serveral things (kind of a loop). Tip: Can also be used to follow a relation even if only one element is present! |
+| pos-list        | List several things (kind of a loop). Tip: Can also be used to follow a relation even if only one element is present! |
 | pos-switch      | Conditional rendering                                                                                                  |
 | pos-case        | Conditional rendering (together with pos-switch)                                                                       |
 | pos-rich-link   | Link a resource                                                                                                        |
 
-The readmes mention related other resources. Explore them as needed if they sound like they might help the use case.
+Call `podos_getElementDocs` for each element you intend to use before writing any HTML for it. If an element is not found via the tools, only then fall back to fetching its readme from:
 
-Important: Make sure to fetch the raw Markdown from `raw.githubusercontent.com`, you do not need the HTML version.
+`https://raw.githubusercontent.com/pod-os/PodOS/refs/heads/main/docs/elements/components/<component name>/readme.md`
 
 ## Workflow
 
