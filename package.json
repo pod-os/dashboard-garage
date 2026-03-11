@@ -19,6 +19,8 @@
   "type": "module",
   "scripts": {},
   "devDependencies": {
-    "@wc-toolkit/cem-utilities": "^1.5.4"
+    "@opencode-ai/plugin": "^1.2.24",
+    "@wc-toolkit/cem-utilities": "^1.5.4",
+    "vitest": "^4.0.18"
   }
 }
