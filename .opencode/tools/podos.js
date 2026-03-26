@@ -1,11 +1,31 @@
 import {tool} from "@opencode-ai/plugin"
 import {getAllComponents, getComponentByTagName} from '@wc-toolkit/cem-utilities';
-import manifest from '../../custom-elements.json' with {type: 'json'};
+
+const CDN_URL = 'https://cdn.jsdelivr.net/npm/@pod-os/elements/dist/custom-elements.json';
+let cachedManifest = null;
+
+async function getManifest() {
+  if (cachedManifest) {
+    return cachedManifest;
+  }
+
+  try {
+    const response = await fetch(CDN_URL);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch manifest: ${response.status} ${response.statusText}`);
+    }
+    cachedManifest = await response.json();
+    return cachedManifest;
+  } catch (error) {
+    throw new Error(`Unable to load PodOS manifest from CDN: ${error.message}`);
+  }
+}
 
 export const listAllElements = tool({
   description: "List all PodOS elements",
 
   async execute(args) {
+    const manifest = await getManifest();
     const components = getAllComponents(manifest);
     const list = components.map(it => `${it.tagName}: ${it.description}`);
     return list.join('\n');
@@ -20,6 +40,7 @@ export const getElementDocs = tool({
   },
 
   async execute(args) {
+    const manifest = await getManifest();
     const component = getComponentByTagName(manifest, args.tagName);
     return JSON.stringify(component, null, 2);
   },
