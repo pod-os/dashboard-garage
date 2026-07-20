@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script
+            type="module"
+            src="https://cdn.jsdelivr.net/npm/@pod-os/elements/dist/elements/elements.esm.js">
+    </script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@pod-os/elements/dist/elements/elements.css"
+    />
+    <style>
+        :root {
+            --bg: #101314;
+            --surface: #171b1d;
+            --text: #e8eaea;
+            --muted: #9aa3a3;
+            --accent: #6ee7d0;
+            --border: #262b2d;
+            --radius: 10px;
+            --gap: 1.25rem;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.55;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        main {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: clamp(1.25rem, 5vw, 3rem) 1.25rem 4rem;
+        }
+
+        header.profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding-bottom: var(--gap);
+            border-bottom: 1px solid var(--border);
+            margin-bottom: var(--gap);
+        }
+
+        .avatar {
+            pos-picture {
+                --border-radius: 50%;
+                --width: 100px;
+                --height: 100px;
+            }
+
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.4rem;
+            letter-spacing: -0.01em;
+        }
+
+        .role {
+            margin: 0.15rem 0 0;
+            color: var(--muted);
+            font-size: 0.95rem;
+            display: inline-flex;
+            gap: 0.5rem;
+        }
+
+        section {
+            margin-bottom: var(--gap);
+            padding: 1rem 1.1rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+
+        section h2 {
+            margin: 0 0 0.6rem;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+        }
+
+        section p {
+            margin: 0;
+            color: var(--text);
+        }
+
+        ul.links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.links pos-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        ul.links pos-rich-link {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: border-color 0.15s ease, color 0.15s ease;
+
+            pos-label {
+                color: var(--text);
+            }
+        }
+
+        ul.links pos-rich-link:hover,
+        ul.links pos-rich-link:focus-visible {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        ul.links pos-rich-link:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        ul.skills {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.skills > pos-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        ul.skills li {
+            font-size: 0.82rem;
+            padding: 0.25rem 0.6rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--muted);
+        }
+
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 420px) {
+            header.profile {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <pos-app>
+        <pos-resource uri="https://angelo.veltens.org/profile/card#me">
+            <header class="profile">
+                <div class="avatar" aria-hidden="true">
+                    <pos-picture></pos-picture>
+                </div>
+                <div>
+                    <h1>
+                        <pos-label></pos-label>
+                    </h1>
+                    <p class="role">
+                        <pos-value predicate="http://www.w3.org/2006/vcard/ns#role"></pos-value>
+                        <pos-list rel="http://www.w3.org/2006/vcard/ns#hasAddress">
+                            <template>
+                                <pos-value predicate="http://www.w3.org/2006/vcard/ns#locality"></pos-value>
+                            </template>
+                        </pos-list>
+
+                    </p>
+                </div>
+            </header>
+
+            <section aria-labelledby="about-heading">
+                <h2 id="about-heading">About</h2>
+                <p>
+                    <pos-description></pos-description>
+                </p>
+            </section>
+
+            <pos-switch>
+                <pos-case if-property="http://schema.org/skills">
+                    <template>
+                        <section aria-labelledby="skills-heading">
+                            <h2 id="skills-heading">Skills</h2>
+                            <ul class="skills">
+
+                                <pos-list rel="http://schema.org/skills">
+                                    <template>
+                                        <pos-list rel="http://www.w3.org/ns/solid/terms#publicId">
+                                            <template>
+                                                <li>
+                                                    <pos-label></pos-label>
+                                                </li>
+                                            </template>
+                                        </pos-list>
+                                    </template>
+                                </pos-list>
+                            </ul>
+                        </section>
+                    </template>
+                </pos-case>
+                <pos-case if-property="http://www.w3.org/ns/solid/terms#community">
+                    <template>
+                        <section aria-labelledby="links-heading">
+                            <h2 id="links-heading">Projects & Communities</h2>
+                            <ul class="links">
+                                <pos-list fetch rel="http://www.w3.org/ns/solid/terms#community">
+                                    <template>
+                                        <li>
+                                            <pos-rich-link>
+                                                <pos-label></pos-label>
+                                            </pos-rich-link>
+                                        </li>
+                                    </template>
+                                </pos-list>
+                            </ul>
+                        </section>
+                    </template>
+                </pos-case>
+            </pos-switch>
+
+            <footer>
+                <p>Built with <a href="https://pod-os.org">PodOS</a></p>
+            </footer>
+        </pos-resource>
+    </pos-app>
+    <script>
+      document.addEventListener("pod-os:link", function ({detail}) {
+        window.open(detail, "_blank");
+      });
+    </script>
+</main>
+</body>
+</html>
