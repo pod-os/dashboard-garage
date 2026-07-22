@@ -1,0 +1,85 @@
+<#it> a <https://schema.org/Recipe>;
+    <https://schema.org/cookTime> "PT23M";
+    <https://schema.org/description> "These bakery-style vegan blueberry muffins are in a league of their own! Featuring a bountiful top caramelized in a crunchy crumble and unmatched fluffiness, they’re tender, buttery, and loaded with juicy blueberries. Freezer-friendly and easy to make gluten-free!";
+    <https://schema.org/image> <https://rainbowplantlife.com/wp-content/uploads/2022/06/closeup-of-vegan-blueberry-muffins-with-walnut-brown-sugar-crumble-in-muffin-tin..-1-scaled.jpg>;
+    <https://schema.org/name> "Vegan Blueberry Muffins";
+    <https://schema.org/prepTime> "PT25M";
+    <https://schema.org/recipeIngredient> "1 1/4 cups (300 mL)  oat milk", "2 3/4 cups (345g)  all-purpose flour, (spooned and leveled (see Note 2) (See Note 3 for GF option))", "8 ounces (227g)  fresh blueberries ((about 1 ½ cups) (see Note 1))", "¼ teaspoon almond extract ((or just sub in an extra ½ tsp of vanilla))", "⅓ packed cup (50g)  organic brown sugar", "⅓ cup (37g)  walnuts,  (finely chopped)", "3 tablespoons (42g)  vegan butter,  (melted (recommended, but can use more oil))", "3 tablespoons neutral-flavored oil ((sunflower oil, avocado oil, canola oil, etc.))", "2 tablespoons ground flaxseed meal", "2 teaspoons vanilla extract", "2 ¼ teaspoons baking powder", "1 medium lemon, (zested + 1 tablespoon juice)", "1 medium lemon, (zested)", "1 teaspoon ground cinnamon", "½ cup (100g)  organic cane sugar", "½ teaspoon fine sea salt", "¼ cup (38g)  loosely packed organic brown sugar", "¼ teaspoon baking soda", "Pinch of sea salt", "¼ teaspoon freshly grated nutmeg ((optional, adds more depth of flavor))";
+    <https://schema.org/recipeInstructions> <#d255ba75-e9d3-491e-bb4f-404e9824bd6e>, <#1be61536-682b-4fe2-ace2-1f0c11e45916>, <#3636097e-a501-49bc-9fc8-7c37d07ad837>, <#cab86dc2-1e0f-49a5-9c7d-6fa4a5e4cbfb>, <#feb3eab7-f5fb-48bd-bf50-4b47dff8fba5>, <#69f0f066-72eb-478f-903d-295a36f5c59a>, <#33b79cf4-2635-4f57-8d88-39a58dd5e36d>, <#5eb9b386-0121-4f7c-9feb-cbbfe5bc23fa>, <#17d6cf35-2eaa-4be2-9d12-265042b8b84a>, <#9663803d-b9e8-4371-b7d5-33d6073b39a9>;
+    <https://schema.org/recipeYield> "12,12 muffins";
+    <https://schema.org/sameAs> <https://rainbowplantlife.com/vegan-blueberry-muffins/>;
+    <https://schema.org/suitableForDiet> <https://schema.org/VeganDiet>.
+<#d255ba75-e9d3-491e-bb4f-404e9824bd6e> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 1;
+    <https://schema.org/text> "Wash and dry your blueberries in a towel. You want them to be dry before using.".
+<#1be61536-682b-4fe2-ace2-1f0c11e45916> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 2;
+    <https://schema.org/text> "Preheat the oven to 425ºF/218ºC. Generously grease a standard 12-cup muffin tin on the bottoms and sides with coconut oil or cooking spray--be generous to avoid sticking (see Note 4).".
+<#3636097e-a501-49bc-9fc8-7c37d07ad837> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 3;
+    <https://schema.org/text> "In a small bowl, whisk together the flaxseed meal and 5 tablespoons of warm water. Set aside for 10 to 15 minutes to gel up.".
+<#cab86dc2-1e0f-49a5-9c7d-6fa4a5e4cbfb> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 4;
+    <https://schema.org/text> "Zest the lemon and set the zest aside for step 6. Juice the lemon and add one tablespoon of juice to the oat milk (\"buttermilk\"). Stir and set aside for 5 to 10 minutes.".
+<#feb3eab7-f5fb-48bd-bf50-4b47dff8fba5> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 5;
+    <https://schema.org/text> "Make the Walnut Crumble: In a small bowl, mix the finely chopped walnuts, brown sugar, zest of 1 lemon, and pinch of salt until well combined.".
+<#69f0f066-72eb-478f-903d-295a36f5c59a> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 6;
+    <https://schema.org/text> "In a medium bowl, whisk together the dry ingredients: flour, baking powder, baking soda, salt, cinnamon, nutmeg, cane sugar, and the 1/4 cup brown sugar.In a large bowl, whisk together the wet ingredients: buttermilk, lemon zest, prepared flax eggs, oil, melted butter, vanilla, and almond extract. Add the dry ingredients to the wet, using a silicone spatula or wooden spoon and stir until just combined, but do not over mix. (See Note 5)Do not mix in the blueberries at this point.".
+<#33b79cf4-2635-4f57-8d88-39a58dd5e36d> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 7;
+    <https://schema.org/text> "Drop a heaping tablespoonful of the batter into the bottom of each muffin cup, making sure to cover the bottom of the tin. You'll only add roughly half of the batter to the muffin tins at this time.".
+<#5eb9b386-0121-4f7c-9feb-cbbfe5bc23fa> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 8;
+    <https://schema.org/text> "Now, add the blueberries to the remaining batter in the bowl and use a silicone spatula to gently fold them in. Divide the blueberry muffin batter evenly into the muffin cups, filling to the top. Sprinkle the Walnut Crumble evenly over each muffin.".
+<#17d6cf35-2eaa-4be2-9d12-265042b8b84a> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 9;
+    <https://schema.org/text> "Bake at 425ºF/218ºC for 6 minutes, or until muffins have risen nicely. Then, without opening the oven door, reduce the heat to 350ºF/175ºC. Bake for another 16 to 18 minutes, or until a toothpick comes out clean or with a few crumbs.".
+<#9663803d-b9e8-4371-b7d5-33d6073b39a9> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 10;
+    <https://schema.org/text> "Transfer to a cooling rack and cool for 20 minutes. Use a small offset spatula or butter knife to loosen the muffins. (See Note 6)Store cooled muffins in an airtight container on the counter for 2 to 3 days, or in the fridge for 5 to 6 days, or up to 3 months in the freezer.".
+<#d255ba75-e9d3-491e-bb4f-404e9824bd6e-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#d255ba75-e9d3-491e-bb4f-404e9824bd6e>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#1be61536-682b-4fe2-ace2-1f0c11e45916-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#1be61536-682b-4fe2-ace2-1f0c11e45916>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#3636097e-a501-49bc-9fc8-7c37d07ad837-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#3636097e-a501-49bc-9fc8-7c37d07ad837>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#cab86dc2-1e0f-49a5-9c7d-6fa4a5e4cbfb-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#cab86dc2-1e0f-49a5-9c7d-6fa4a5e4cbfb>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#feb3eab7-f5fb-48bd-bf50-4b47dff8fba5-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#feb3eab7-f5fb-48bd-bf50-4b47dff8fba5>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#69f0f066-72eb-478f-903d-295a36f5c59a-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#69f0f066-72eb-478f-903d-295a36f5c59a>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#33b79cf4-2635-4f57-8d88-39a58dd5e36d-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#33b79cf4-2635-4f57-8d88-39a58dd5e36d>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#5eb9b386-0121-4f7c-9feb-cbbfe5bc23fa-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#5eb9b386-0121-4f7c-9feb-cbbfe5bc23fa>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#17d6cf35-2eaa-4be2-9d12-265042b8b84a-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#17d6cf35-2eaa-4be2-9d12-265042b8b84a>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#9663803d-b9e8-4371-b7d5-33d6073b39a9-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.960Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#9663803d-b9e8-4371-b7d5-33d6073b39a9>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.960Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#it-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:26.953Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#it>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:26.953Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.

@@ -1,0 +1,92 @@
+<#it> a <https://schema.org/Recipe>;
+    <https://schema.org/cookTime> "PT12M";
+    <https://schema.org/description> "These mind-blowing vegan zucchini fritters pair a delightfully light, crispy exterior with a tender creamy interior and a parade of sensational flavors thanks to fresh herbs, a medley of warm, zingy spices, and tangy vegan feta. A perfect app, snack, or side dish!";
+    <https://schema.org/image> <https://rainbowplantlife.com/wp-content/uploads/2022/08/zucchini-fritters-final-cover-photo-1-of-1.jpg>;
+    <https://schema.org/name> "Vegan Zucchini Fritters";
+    <https://schema.org/prepTime> "PT35M";
+    <https://schema.org/recipeIngredient> "1 ½ pounds (680g)  zucchini, (peel kept on)", "⅓ cup (43g)  all purpose-flour ((See Note 2))", "¾ cup (12g)  fresh dill, (tough stems removed and finely chopped (See Note 1))", "4  scallions,  (thinly sliced (bruised tops trimmed))", "3 tablespoons olive oil,  (more as needed to cook the second batch )", "2 tablespoons ground flaxseed meal", "2 teaspoons ground cumin", "1 cup + 2 tablespoons (90g) panko bread crumbs", "1/2 cup (75g)  vegan feta, (crumbled (See Note 3))", "¼ cup (4g)  fresh mint leaves (finely chopped)", "¼ teaspoon freshly grated nutmeg", "Flaky sea salt for finishing", "Freshly cracked black pepper", "Kosher salt", "Vegan Tzatziki ((optional, recipe below))";
+    <https://schema.org/recipeInstructions> <#5d982c52-4882-46d9-985e-0692d82c7210>, <#0856d6cd-530a-44a2-96c8-a6aae8713c13>, <#cab13efb-3121-45f5-9dc0-34705de998dd>, <#d299191b-28d6-48b4-8d8c-960d0ba42250>, <#93ae9bdc-86ae-45d6-9b9c-222fa0c6a707>, <#1b0c5f15-0e25-42b2-aaca-0efd8adc5e10>, <#9c2fbc2a-33c3-4a7a-bd77-bf74b1222ed9>, <#534100c1-b40e-42e5-a75a-6125a9ae7891>, <#18cbce13-6837-4801-a533-41c3990d46a6>, <#c199c007-b468-4bca-b65b-7244cc53593c>, <#0fe44542-b867-469a-bd74-cbe424aa8241>;
+    <https://schema.org/recipeYield> "22,22 to 24 fritters";
+    <https://schema.org/sameAs> <https://rainbowplantlife.com/vegan-zucchini-fritters/>;
+    <https://schema.org/suitableForDiet> <https://schema.org/VeganDiet>.
+<#5d982c52-4882-46d9-985e-0692d82c7210> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 1;
+    <https://schema.org/text> "Grate the zucchini. Use the wide holes on a box grater to grate the zucchini. Leave the top nub of the zucchini on so you can use it as a handle while you grate. For a faster option, use a food processor if you have a reversible shredding disc.".
+<#0856d6cd-530a-44a2-96c8-a6aae8713c13> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 2;
+    <https://schema.org/text> "Add grated zucchini to a colander. Sprinkle with 1 heaping teaspoon kosher salt; toss to combine. Drain for at least 10 minutes, or for a few hours.".
+<#cab13efb-3121-45f5-9dc0-34705de998dd> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 3;
+    <https://schema.org/text> "Make the flax eggs. In a small bowl, mix together the flaxseed meal and 4 tablespoons of warm water. Whisk well, then set aside for 10 minutes to gel up.".
+<#d299191b-28d6-48b4-8d8c-960d0ba42250> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 4;
+    <https://schema.org/text> "In a large bowl, combine the dill, mint, scallions, cumin, nutmeg, ½ teaspoon kosher salt, several cracks of pepper, flour, panko, and feta. Stir to combine.".
+<#93ae9bdc-86ae-45d6-9b9c-222fa0c6a707> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 5;
+    <https://schema.org/text> "Squeeze out the water from zucchini. Add the zucchini to a nut milk bag, mesh produce bag, or thin dish towel. Over a bowl, use your hands to squeeze out as much water out as you can (almost like you're using an icing bag). Move the zucchini around a bit and reshape into a ball. Squeeze the zucchini in sections to release more water. If needed, use both hands to squeeze. Repeat a few times, moving the zucchini around so all of it gets evenly squeezed. (See Note 4)".
+<#1b0c5f15-0e25-42b2-aaca-0efd8adc5e10> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 6;
+    <https://schema.org/text> "Finish the zucchini batter. To the herb/flour filling, add the prepared flax eggs and stir to incorporate with your hands. Finally, break up the squeezed  zucchini and add it to the filing. Use your hands to incorporate the zucchini until just combined and you can squeeze the batter between your fingers to roll into balls. Don’t mix too much, as this causes zucchini to release more water.".
+<#9c2fbc2a-33c3-4a7a-bd77-bf74b1222ed9> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 7;
+    <https://schema.org/text> "Shape the fritters. Line a large plate with parchment paper. Scoop 2 tablespoon (25 to 30g) portions of the batter (we find it easier to just weigh it using a scale). Using your hands, compact the dough tightly before pressing with your palms to form a patty (this ensures they stick together). Slightly flatten the patty (it should resemble a double stuffed Oreo in size), a scant ½ inch thick (1 cm thick). Place the patties on lined plate. For smooth edges, cup each patty with your hands, gently rotating in a circular fashion to seal edges and round the shape.".
+<#534100c1-b40e-42e5-a75a-6125a9ae7891> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 8;
+    <https://schema.org/text> "Preheat the pan. Line a large plate with paper towels. Heat 3 TBSP olive oil in a large nonstick frying pan over medium-high heat for a few minutes to heat up. To test, add a drop of water; if it sizzles immediately, it’s ready.".
+<#18cbce13-6837-4801-a533-41c3990d46a6> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 9;
+    <https://schema.org/text> "Cook the fritters. Carefully add the patties to the pan, as many as you can fit without overcrowding (12 fritters will fit a 12-inch frying pan). Fry for 3 to 4 minutes, lightly pressing down on each patty with your spatula halfway through. Once the bottom is golden brown, flip and reduce the heat to medium. Cook for another 2 to 3 minutes, or until the bottom is also golden brown (slight charring in spots is okay). Some fritters will be done a bit sooner than others.".
+<#c199c007-b468-4bca-b65b-7244cc53593c> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 10;
+    <https://schema.org/text> "Transfer  fritters to towel-lined surface to absorb excess oil. Sprinkle with a pinch of flaky sea salt. Repeat with the remaining zucchini mixture, adding 2 to 3 more tablespoons of oil to the pan (with a 12-inch pan, you should be able to fry the fritters in 2 batches).".
+<#0fe44542-b867-469a-bd74-cbe424aa8241> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 11;
+    <https://schema.org/text> "Serve warm as is, or with vegan tzatziki for dipping. (See Note 5)".
+<#5d982c52-4882-46d9-985e-0692d82c7210-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#5d982c52-4882-46d9-985e-0692d82c7210>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#0856d6cd-530a-44a2-96c8-a6aae8713c13-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#0856d6cd-530a-44a2-96c8-a6aae8713c13>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#cab13efb-3121-45f5-9dc0-34705de998dd-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#cab13efb-3121-45f5-9dc0-34705de998dd>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#d299191b-28d6-48b4-8d8c-960d0ba42250-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#d299191b-28d6-48b4-8d8c-960d0ba42250>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#93ae9bdc-86ae-45d6-9b9c-222fa0c6a707-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#93ae9bdc-86ae-45d6-9b9c-222fa0c6a707>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#1b0c5f15-0e25-42b2-aaca-0efd8adc5e10-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#1b0c5f15-0e25-42b2-aaca-0efd8adc5e10>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#9c2fbc2a-33c3-4a7a-bd77-bf74b1222ed9-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#9c2fbc2a-33c3-4a7a-bd77-bf74b1222ed9>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#534100c1-b40e-42e5-a75a-6125a9ae7891-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#534100c1-b40e-42e5-a75a-6125a9ae7891>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#18cbce13-6837-4801-a533-41c3990d46a6-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#18cbce13-6837-4801-a533-41c3990d46a6>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#c199c007-b468-4bca-b65b-7244cc53593c-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#c199c007-b468-4bca-b65b-7244cc53593c>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#0fe44542-b867-469a-bd74-cbe424aa8241-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#0fe44542-b867-469a-bd74-cbe424aa8241>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#it-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:35:20.605Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#it>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:35:20.605Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.

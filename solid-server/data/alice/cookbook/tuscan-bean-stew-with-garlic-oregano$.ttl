@@ -1,0 +1,15 @@
+<#it> a <https://schema.org/Recipe>;
+    <https://schema.org/cookTime> "PT40M";
+    <https://schema.org/description> "This delicious Tuscan Bean Stew is such an easy one-pot dinner. Packed with flavours of Italy, it can be made on the hob or slow cooker.";
+    <https://schema.org/image> <https://www.thevegspace.co.uk/wp-content/uploads/2021/04/FV-Insta.jpg>;
+    <https://schema.org/name> "Tuscan Bean Stew with garlic & oregano";
+    <https://schema.org/prepTime> "PT10M";
+    <https://schema.org/recipeIngredient> "500 g passata", "400 g tin borlotti beans", "400 g tin cannellini beans", "250 ml water", "2 tbsp olive oil", "3 cloves garlic ((or 2 tsp ready-chopped garlic from a jar or tube))", "1 tsp brown sugar ((or maple syrup, date syrup or agave))", "1 tsp dried oregano ((and/or dried thyme))", "1 tsp vegetable stock powder", "2 sticks celery", "1  large carrot", "1  leek", "1  red onion", "1  red pepper", "handful baby spinach or curly kale", "1 tbsp balsamic vinegar ((optional))";
+    <https://schema.org/recipeInstructions> <80289158-49ca-405b-91b9-3c7ccaa60728>, <0f74c338-cba5-47db-b733-3adeb1e10ef6>;
+    <https://schema.org/recipeYield> "4,4 people";
+    <https://schema.org/sameAs> <https://www.thevegspace.co.uk/recipe-tuscan-bean-stew-with-garlic-oregano/>;
+    <https://schema.org/suitableForDiet> <https://schema.org/VeganDiet>.
+<#it-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:34:05.512Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#it>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:34:05.512Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.

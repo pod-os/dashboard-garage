@@ -1,0 +1,57 @@
+<#it> a <https://schema.org/Recipe>;
+    <https://schema.org/cookTime> "PT50M";
+    <https://schema.org/description> "The most perfect crispy smashed potatoes get drizzled with a tangy, slightly sweet, and nutty ginger-tahini dressing and then topped with fresh mint, cilantro, chili peppers, and roasted peanuts. An addictive blend of textures and gourmet Asian-inspired flavors.";
+    <https://schema.org/image> <https://rainbowplantlife.com/wp-content/uploads/2021/08/crispy-smashed-potatoes-step-4-1-of-1.jpg>;
+    <https://schema.org/name> "Crispy Smashed Potatoes with Ginger-Tahini Dressing";
+    <https://schema.org/prepTime> "PT5M";
+    <https://schema.org/recipeIngredient> "3 pounds (1.4 kg) baby or mini golden/yellow potatoes*", "4 tablespoons Diamond Crystal kosher salt** or 2 tablespoons sea salt,  (plus more to season)", "4 to 5 tablespoons extra virgin olive oil***", "3  garlic cloves, (crushed with a press or finely minced)", "2  scallions ((top 1 inch trimmed), sliced thinly on a bias)", "2 tablespoons freshly squeezed lime juice", "2 tablespoons ice water", "2 teaspoons maple syrup", "1  serrano pepper, (sliced thinly on a bias (use jalapeño for less heat))", "1 tablespoon tamari or soy sauce", "1 ½ tablespoons toasted sesame oil", "1- inch piece ginger, (grated)", "½ cup (6g) cilantro leaves and tender stems, chopped", "¼ cup (28g) roasted peanuts, chopped****", "¼ cup (4g) fresh mint leaves or Thai basil leaves, torn", "¼ cup (56g) tahini";
+    <https://schema.org/recipeInstructions> <#ddefcd72-2c5a-4067-ac2d-f8b57c74e302>, <#883d8fe0-2d53-4f67-ba6a-246b82d70e77>, <#ebf0152e-c613-4e82-9bea-b1455afa4a08>, <#a85fb993-1b1a-4041-8179-f6de60deaaae>, <#4d124b24-5118-4359-b561-47612b3b199b>, <#63655b61-7aa8-4e2b-8e08-82f5652fa53e>;
+    <https://schema.org/recipeYield> "8,8 to 10 (as a side)";
+    <https://schema.org/sameAs> <https://rainbowplantlife.com/crispy-smashed-potatoes-with-ginger-tahini-dressing/>;
+    <https://schema.org/suitableForDiet> <https://schema.org/VeganDiet>, <https://schema.org/GlutenFreeDiet>.
+<#ddefcd72-2c5a-4067-ac2d-f8b57c74e302> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 1;
+    <https://schema.org/text> "Preheat the oven to 450ºF/232ºC.".
+<#883d8fe0-2d53-4f67-ba6a-246b82d70e77> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 2;
+    <https://schema.org/text> "Parboil the potatoes. Add the potatoes to a large saucepan. Cover with cold water and season with the kosher salt or sea salt. Bring to a boil, then reduce the heat to maintain a decent simmer for 12 to 15 minutes, dependent on size, until just fork tender but not too soft. Drain the potatoes in a colander and pat dry if there’s any water clinging to them.".
+<#ebf0152e-c613-4e82-9bea-b1455afa4a08> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 3;
+    <https://schema.org/text> "Smash the potatoes. Transfer potatoes to two rimmed baking sheets. Use the bottom of a glass, measuring cup, or mug to firmly smush down on the potatoes (but not too firmly, you don’t want them to fall apart into a bunch of pieces).".
+<#a85fb993-1b1a-4041-8179-f6de60deaaae> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 4;
+    <https://schema.org/text> "Roast the potatoes. Drizzle some of the olive oil on top of the potatoes and coat the top side; gently flip, add more oil, and coat the other side of the potatoes. If the potatoes feel dry, add a bit more oilNote: you can also pour the oil into a small bowl and use a pastry brush to coat the oil onto the potatoes. This technique allows you to use a bit less oil and also ensures a more even coating of oil, but is a bit more time consuming. Season the potatoes with some kosher salt or sea salt. Roast in the preheated oven for 30 minutes, switching the pans’ location in the oven halfway through (but do not flip the potatoes), or until the potatoes are crispy and browned.".
+<#4d124b24-5118-4359-b561-47612b3b199b> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 5;
+    <https://schema.org/text> "Meanwhile, make the Ginger-Tahini Sauce. In a food processor, combine the lime juice, sesame oil, tahini, tamari, maple syrup, ginger, and garlic until well combined and relatively smooth. Add the ice water and blend again until the sauce is thick but pourable. Season with a pinch of salt as needed.".
+<#63655b61-7aa8-4e2b-8e08-82f5652fa53e> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 6;
+    <https://schema.org/text> "Pile the warm potatoes on a serving platter. Drizzle some sauce on top. Scatter the scallions, sliced serrano pepper, mint or Thai basil leaves, chopped cilantro, and peanuts on top of the potatoes. Serve remaining sauce on the side for dipping.".
+<#ddefcd72-2c5a-4067-ac2d-f8b57c74e302-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#ddefcd72-2c5a-4067-ac2d-f8b57c74e302>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#883d8fe0-2d53-4f67-ba6a-246b82d70e77-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#883d8fe0-2d53-4f67-ba6a-246b82d70e77>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#ebf0152e-c613-4e82-9bea-b1455afa4a08-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#ebf0152e-c613-4e82-9bea-b1455afa4a08>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#a85fb993-1b1a-4041-8179-f6de60deaaae-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#a85fb993-1b1a-4041-8179-f6de60deaaae>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#4d124b24-5118-4359-b561-47612b3b199b-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#4d124b24-5118-4359-b561-47612b3b199b>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#63655b61-7aa8-4e2b-8e08-82f5652fa53e-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#63655b61-7aa8-4e2b-8e08-82f5652fa53e>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.970Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#it-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:37:08.966Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#it>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:37:08.966Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.

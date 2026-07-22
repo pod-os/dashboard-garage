@@ -1,0 +1,4 @@
+<> a <http://www.w3.org/ns/solid/terms#TypeIndex>, <http://www.w3.org/ns/solid/terms#UnlistedDocument>.
+<#8c1442dc-8f11-441a-ad30-39087a569432> a <http://www.w3.org/ns/solid/terms#TypeRegistration>;
+    <http://www.w3.org/ns/solid/terms#forClass> <https://schema.org/Recipe>;
+    <http://www.w3.org/ns/solid/terms#instanceContainer> <../cookbook/>.

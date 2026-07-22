@@ -1,0 +1,36 @@
+<#it> a <https://schema.org/Recipe>;
+    <https://schema.org/cookTime> "25M";
+    <https://schema.org/description> "You may be dubious about one-pot pasta at first. Cooking both the pasta and sauce in the same pot at the same time? Don't knock it until you've tried it - the results are incredible.";
+    <https://schema.org/image> <https://veganuary.com/wp-content/uploads/2017/01/OnepotLinguine-1200x1800.jpg>;
+    <https://schema.org/name> "One-Pot Linguine with Olives, Capers and Sundried Tomatoes";
+    <https://schema.org/prepTime> "10M";
+    <https://schema.org/recipeIngredient> "6 tbsp pitted black olives", "2 tbsp olive oil", "1 tbsp capers", "1 tsp sugar", "17 oz. passata (tomato puree) with onion and garlic", "7 oz. dried linguine (or spaghetti)", "6 slices sun-dried tomato (from a jar)", "1 red chilli", "Handful fresh basil";
+    <https://schema.org/recipeInstructions> <#d6a0f7c7-72a7-42c3-ab0c-7e5b91adc322>, <#4e9c8b18-8c22-4641-adb3-28fb8d2f73a8>, <#f40d34f3-9308-4a34-a6a6-b193a240ef60>;
+    <https://schema.org/recipeYield> "2";
+    <https://schema.org/sameAs> <https://veganuary.com/recipes/one-pot-linguine-olives-capers-sun-dried-tomatoes/>;
+    <https://schema.org/suitableForDiet> <https://schema.org/VeganDiet>.
+<#d6a0f7c7-72a7-42c3-ab0c-7e5b91adc322> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 1;
+    <https://schema.org/text> "Find a large lidded saucepan in which the linguine will lie flat on the bottom, or snap the linguine in half to fit in a regular pan. Cover the linguine with the passata, then re-fill the passata carton or jar half way with water (250ml), and add this to the pan. Bring it to the boil and reduce to a simmer. Keep stirring whilst the pasta softens to ensure it doesn’t stick to the bottom of the pan.".
+<#4e9c8b18-8c22-4641-adb3-28fb8d2f73a8> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 2;
+    <https://schema.org/text> "De-seed and finely slice the chili, drain and finely chop the sun-dried tomatoes, halve the olives and drain the capers, then add all these ingredients to the pan, along with the sugar and olive oil. Stir well, cover with the lid and cook on a medium heat for 10-11 minutes, (stirring regularly), until the pasta is cooked through.".
+<#f40d34f3-9308-4a34-a6a6-b193a240ef60> a <https://schema.org/HowToStep>;
+    <https://schema.org/position> 3;
+    <https://schema.org/text> "Roughly chop the basil. When the pasta is cooked, stir in the basil and a grind of black pepper (it shouldn’t need any salt), then serve.".
+<#d6a0f7c7-72a7-42c3-ab0c-7e5b91adc322-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:36:05.306Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#d6a0f7c7-72a7-42c3-ab0c-7e5b91adc322>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:36:05.306Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#4e9c8b18-8c22-4641-adb3-28fb8d2f73a8-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:36:05.306Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#4e9c8b18-8c22-4641-adb3-28fb8d2f73a8>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:36:05.306Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#f40d34f3-9308-4a34-a6a6-b193a240ef60-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:36:05.306Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#f40d34f3-9308-4a34-a6a6-b193a240ef60>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:36:05.306Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<#it-metadata> a <https://vocab.noeldemartin.com/crdt/Metadata>;
+    <https://vocab.noeldemartin.com/crdt/createdAt> "2026-07-22T16:36:05.304Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://vocab.noeldemartin.com/crdt/resource> <#it>;
+    <https://vocab.noeldemartin.com/crdt/updatedAt> "2026-07-22T16:36:05.304Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
