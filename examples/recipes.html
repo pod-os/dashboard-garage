@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipes</title>
+    <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/@pod-os/elements/dist/elements/elements.esm.js">
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@pod-os/elements/dist/elements/elements.css"
+    />
+    <style>
+        :root {
+            --background-color: #fff;
+            --border-color: #ccc;
+            --picture-background: #eee;
+            --picture-text: #aaa;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #333;
+                --border-color: #444;
+                --picture-background: #555;
+                --picture-text: #eee;
+            }
+        }
+        body {
+            background: none;
+        }
+        header {
+            h1 {
+                padding: 1rem;
+            }
+        }
+        main {
+            padding: 1rem;
+        }
+        .recipes {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+
+
+            article {
+                display: flex;
+                overflow: hidden;
+                flex-direction: column;
+                gap: 0.5rem;
+                background-color: var(--background-color);
+                border: 1px solid var(--border-color);
+                border-radius: 1rem;
+
+
+                h2 {
+                    padding: 1rem;
+                    white-space: wrap;
+                }
+
+                pos-picture {
+                    --width: 100%;
+                    --max-height: 300px;
+                    --height: auto;
+                    --object-fit: cover;
+                }
+
+                .picture-placeholder {
+                    width: 100%;
+                    height: 300px;
+                    background-color: var(--picture-background);;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 2rem;
+                    color: var(--picture-text);
+                }
+                ul.tags {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 0.5rem;
+                    padding: 0.5rem;
+                    list-style: none;
+                    li {
+                        padding: 0.25rem 0.5rem;
+                        background-color: var(--border-color);
+                        border-radius: 0.5rem;
+                        color: var(--background-color);
+                        &.vegan {
+                            background-color: #147517;
+                            color: white;
+                            &::before {
+                                content: "🌱";
+                            }
+                        }
+                        &.gluten-free {
+                            background-color: #8d8276;
+                            color: white;
+                            &::before {
+                                content: "🚫🌾";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<pos-app restore-previous-session>
+    <header><h1>Cookbook</h1></header>
+    <main>
+        <pos-resource uri="http://localhost:3000/alice/cookbook/">
+            <pos-list fetch rel="http://www.w3.org/ns/ldp#contains">
+                <template>
+                    <!-- intentionally left blank - just looping through, so that all recipe documents are fetched -->
+                </template>
+            </pos-list>
+        </pos-resource>
+
+        <pos-list class="recipes" if-typeof="https://schema.org/Recipe">
+            <template>
+
+                <article>
+                    <pos-switch>
+                        <pos-case if-property="https://schema.org/image">
+                            <template>
+                                <pos-picture></pos-picture>
+                            </template>
+                        </pos-case>
+                        <pos-case else>
+                            <template>
+                                <div class="picture-placeholder"><pos-label></pos-label></div>
+                            </template>
+                        </pos-case>
+                    </pos-switch>
+
+                    <pos-rich-link >
+                        <h2>
+                            <pos-label></pos-label>
+                        </h2>
+                    </pos-rich-link>
+
+                    <ul class="tags">
+                        <pos-switch>
+                            <pos-case if-property="https://schema.org/suitableForDiet" some-value-eq="https://schema.org/VeganDiet">
+                                <template>
+                                    <li class="vegan">
+                                        Vegan
+                                    </li>
+                                </template>
+                            </pos-case>
+                            <pos-case if-property="https://schema.org/suitableForDiet" some-value-eq="https://schema.org/GlutenFreeDiet">
+                                <template>
+                                    <li class="gluten-free">
+                                        Gluten free
+                                    </li>
+                                </template>
+                            </pos-case>
+                        </pos-switch>
+                    </ul>
+                </article>
+
+            </template>
+        </pos-list>
+    </main>
+    <footer></footer>
+</pos-app>
+<script>
+    document.addEventListener("pod-os:link", function ({detail}) {
+        window.open("https://umai.noeldemartin.com/viewer?url=" + encodeURIComponent(detail), "_blank");
+    });
+</script>
+</body>
+</html>
